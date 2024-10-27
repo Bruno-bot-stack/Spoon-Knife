@@ -1,17 +1,24 @@
-* {
-  margin:0px;
-  padding:0px;
+#! #.js #bin/usr/env 
+
+#SET_No_Wildcards(*)
+{
+  Inherit_attributes_from_src;
+  margin_dpi;
+  padding_dpi;
 }
 
 #octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+  Inherit_attributes_from_src;
+  display_block;
+  width_dpi;
+  margin_dpi_auto_align;
 }
 
 p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  Inherit_attributes_from_src;
+  Display:Unblock;
+  width:dpi;
+  margin:dpi;
+  font:dpi,Set_font_Courier-New¨
 }
+//
